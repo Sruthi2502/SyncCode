@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Sync - Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Code Sync Dashboard</div>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./aboutus.html">About Us</a>
+            <a href="./login.html">Login</a>
+            <a href="./register.html">Register</a>
+        </nav>
+    </header>
+
+    <main class="dashboard-page">
+        <aside class="sidebar">
+            <ul>
+                <li><button id="newFile" class="sidebar-btn">New File</button></li>
+                <li><button id="saveFile" class="sidebar-btn">Save File</button></li>
+                <li><button id="openFile" class="sidebar-btn">Open File</button></li>
+                <li><button id="deleteFile" class="sidebar-btn">Delete File</button></li>
+                <li><button id="runCode" class="sidebar-btn">Run Code</button></li>
+                <li><button id="downloadCode" class="sidebar-btn">Download ZIP</button></li>
+            </ul>
+        </aside>
+        <section class="editor-section">
+            <textarea id="codeEditor" placeholder="Write your code here..."></textarea>
+            <div id="output" class="output-box">Output will appear here...</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Code Sync. Contact us: info@codesync.com</p>
+    </footer>
+
+   
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
